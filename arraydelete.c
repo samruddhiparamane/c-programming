@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main()
-{
+{ 
     FILE *fp;
     char data[100];
     int a[100],n,i,key,j;
@@ -22,6 +22,7 @@ int main()
             for(j=i;j<n-1;j++)
             a[j]=a[j+1];
             n--;
+            break;
             
 
         }
